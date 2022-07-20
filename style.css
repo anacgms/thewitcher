@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 15px;
+    color: white;
+
+}
+
+body{
+    height: 100vh;
+    background-image: url(./imagens/hell.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+figure{
+    padding:1.7vh 0 0 13vw;
+    display:inline-block;
+   
+}
+
+img{
+    width:3.5vw;
+    background-color: black;
+}
+h1{
+    display:inline-block;
+    vertical-align:top;
+    padding:7vh 0 0 2vw;
+
+}
+
+nav ul{
+    display:inline;
+    margin-left: 300px;
+
+}
+
+li{
+    display:inline;
+    margin-right:1vw;
+
+}
+li:hover{
+    cursor:pointer;
+    font-weight:900;
+  }
+
+main{
+    height:87%;
+    background-image:url(./imagens/cara.png);
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:bottom;
+}
+
+.photo2{
+    width: 30%;
+    display: flex;
+    margin-left: 43%;
+    padding-top: 230px;
+}
+
+.witcher{
+    width: 50%;
+    height: 60%;
+
+}
+.photo3{
+    width: 100%;
+    display: flex;
+    margin-left: 43%;
+    padding-top: 50px;
+
+}
+.btn{
+    width: 15%;
+    height: 60%%;
+
+}
